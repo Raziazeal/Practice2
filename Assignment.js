@@ -32,6 +32,10 @@ let Id=[111];
 console.log("Id ",Id);
 console.log(typeof Id);//object
 
+let profile1=Symbol("QA");
+console.log(profile1);
+console.log(typeof profile1);//symbol
+
 //2. Variables of Different Datatypes.
 
 console.log("2. Variables of Different Datatypes.")
